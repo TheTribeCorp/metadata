@@ -5,17 +5,17 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
+const namePrefix = "Trump Hair Legacy";
+const description = "Dive into the whimsical world of political memorabilia with 125 different 'Golden Strands of Power,' an exclusive NFT collection that captures the essence of Donald Trump's iconic hairstyle. Each NFT in this series is not just a piece of digital art; it's a token of cultural commentary, blending satire with digital ownership. Own a piece of history reimagined through the lens of modern blockchain technology. These NFTs are minted on the Ethereum network,  ensuring each piece's uniqueness and authenticity. Whether you're here for the investment, the art, or the sheer novelty, 'Golden Strands of Power' offers collectors a chance to hold a humorous yet thought-provoking slice of contemporary political iconography";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "HOT",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  external_url: "https://www.hairoftrump.com",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "0x30410e8f654e8CfDE6A270e222eF168C87d7012F",
       share: 100,
     },
   ],
@@ -24,15 +24,10 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 120,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Hair" },
+
     ],
   },
 ];
@@ -82,7 +77,7 @@ const extraMetadata = {};
 
 const rarityDelimiter = "#";
 
-const uniqueDnaTorrance = 10000;
+const uniqueDnaTorrance = 1000;
 
 const preview = {
   thumbPerRow: 5,
