@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Trump Hair Legacy";
 const description = "Dive into the whimsical world of political memorabilia with 125 different 'Golden Strands of Power,' an exclusive NFT collection that captures the essence of Donald Trump's iconic hairstyle. Each NFT in this series is not just a piece of digital art; it's a token of cultural commentary, blending satire with digital ownership. Own a piece of history reimagined through the lens of modern blockchain technology. These NFTs are minted on the Ethereum network,  ensuring each piece's uniqueness and authenticity. Whether you're here for the investment, the art, or the sheer novelty, 'Golden Strands of Power' offers collectors a chance to hold a humorous yet thought-provoking slice of contemporary political iconography";
-const baseUri = "ipfs://NewUriToReplace";
+const baseUri = "ipfs://https://github.com/TheTribeCorp/metadata/tree/main/build/json";
 
 const solanaMetadata = {
   symbol: "HOT",
@@ -63,7 +63,7 @@ const text = {
 };
 
 const pixelFormat = {
-  ratio: 2 / 128,
+  ratio: 30 / 128,
 };
 
 const background = {
@@ -87,7 +87,7 @@ const preview = {
 };
 
 const preview_gif = {
-  numberOfImages: 5,
+  numberOfImages: 10,
   order: "ASC", // ASC, DESC, MIXED
   repeat: 0,
   quality: 100,
